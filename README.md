@@ -16,7 +16,7 @@ COMP9313 - Big Data Management, Project 3
 
 **Background**: Similarity join is an important task in data mining. Given a set of records, it aims to find all the pairs of records with **similarity** larger than a threshold. A record is a set of items. For example, in Amazon, a record could represent the set of products that a customer purchases in a single transaction. The problem can find various applications in different domains, such as data cleaning and product recommendation. 
 
-Given a collection $R$ of records, a similarity function `$sim()$ and threshold $t$, the similarity join on $R$, is to find all the record pairs $r$ and $s$ from $R$, such that $sim(r, s) \ge t$. In this project, we use the Jaccard similarity function to compute similarity. That is, 
+Given a collection $R$ of records, a similarity function $sim()$ and threshold $t$, the similarity join on $R$, is to find all the record pairs $r$ and $s$ from $R$, such that $sim(r, s) \ge t$. In this project, we use the Jaccard similarity function to compute similarity. That is, 
 
 ~~~math
 sim(r, s) = \frac{r \cap s}{r \cup s}
